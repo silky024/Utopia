@@ -17,7 +17,13 @@ public class MyScripts : MonoBehaviour
         {
             print(i);
         }
-        
+        int oddnum = 1;
+        while (oddnum <= 100)
+        {
+            print(oddnum);
+            oddnum += 2;
+            
+        }
         for (int i = 0; i <= 100; i++)
         {
             if ((i % 2) == 0)
