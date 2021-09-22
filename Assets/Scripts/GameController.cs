@@ -40,7 +40,8 @@ public class GameController : MonoBehaviour
         {
             displayText.text = "My name is " + answers[0] + "." +
                             " I like " + answers[1] + 
-                            " and " + answers[2];
+                            " and " + answers[2] 
+                            +". "+ "Let's play!";
 
 
             okButton.gameObject.SetActive(false);
